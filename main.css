@@ -354,3 +354,6 @@ footer {
 .footerLinks ul {
   list-style: none;
 }
+.footerRights {
+  padding: 1em 0;
+}
