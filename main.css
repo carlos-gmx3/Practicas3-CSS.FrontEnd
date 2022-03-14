@@ -255,6 +255,10 @@ p.certs-intro {
   display: block;
   padding: 1em 3em;
 }
+.preparationsList li:hover button {
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.3);
+  transform: rotate(180deg);
+}
 .emContact {
   background-image: url(media/AnimeNurse.jpg);
   background-position: right top;
