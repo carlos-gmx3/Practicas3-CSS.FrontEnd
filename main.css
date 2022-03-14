@@ -308,3 +308,49 @@ p.certs-intro {
 .emContactLines table img {
   height: 40px;
 }
+footer {
+  background-color: #EEF3FF;
+}
+.footerData, .footerLinks, .footerRights {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.footerData {
+  margin: 50px 0;
+  width: 100%;
+}
+.footerGoal {
+  width: 20%;
+}
+.footerLinks {
+  width: 40%;
+}
+.footerData p, .footerData a, .footerRights p, .footerRights a {
+  color: #6d7b93;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-decoration: none;
+}
+.footerGoal h3 {
+  color: #2c4cca;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: .3em 0;
+}
+.footerLinks {
+  line-height: 2.6em;
+}
+.footerLinks h4 {
+  color: #1F3E72;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.footerLinks ul {
+  list-style: none;
+}
